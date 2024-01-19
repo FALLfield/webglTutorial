@@ -12,7 +12,7 @@ function drawScene(gl, programInfo, buffers, cubeRotation) {
     gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
 
     const fieldOfView = (45 * Math.PI) / 180;//in radius
-    const aspect = gl.canvas.clientWidth / gl.canvas.clientHeight;
+    const aspect = gl.canvas.width / gl.canvas.height;
     const zNear = 0.1;
     const zFar = 100.0;
     const projectionMatrix = mat4.create();

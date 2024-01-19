@@ -9,8 +9,8 @@ main();
 function main(){
     const canvas = document.getElementById("glcanvas");
     const gl = canvas.getContext("webgl");
-    canvas.height = 800;
-    canvas.width = 640;
+    canvas.height = 450;
+    canvas.width = 450;
 
     console.log(gl);
 

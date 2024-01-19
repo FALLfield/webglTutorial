@@ -56,7 +56,7 @@ function initColorBuffers(gl){
     ];
 
     let colors = [];
-    for( let i = 0 ; i < faceColors.length, i++;){
+    for( let i = 0 ; i < faceColors.length; i++){
         const c = faceColors[i];
         //Repeat each color four times for the four vertexes of the face
         colors = colors.concat(c, c, c, c);
